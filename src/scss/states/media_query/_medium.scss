@@ -1,0 +1,37 @@
+.default_container{
+	width: 700px;
+}
+
+.header{
+	padding-top: 30px;
+}
+
+.nav{
+	&_item{
+		padding-bottom: 40px;
+	}
+}
+
+.app{
+	&_img{
+		top: 85px;
+		right: -45px;
+	}
+}
+
+.download{
+	&_content{
+		display: block;
+		text-align: center;
+	}
+	&_title{
+		margin-bottom: 20px;
+	}
+	&_btn{
+		display: inline-block;
+	}
+}
+
+.footer{
+	padding: 30px 0;
+}

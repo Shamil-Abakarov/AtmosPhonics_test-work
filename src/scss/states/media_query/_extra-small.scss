@@ -1,0 +1,44 @@
+.default_container{
+	width: 100%;
+	padding: 0 15px;
+}
+
+.slideshow{
+	.owl-carousel{
+		padding: 0;
+	}
+}
+
+.app{
+	&_text{
+		text-align: justify;
+	}
+	&_link{
+		margin-bottom: 20px;
+	}
+}
+
+.promotion{
+	padding-bottom: 30px;
+	&_btn{
+		margin-bottom: 20px;
+	}
+}
+
+.footer{
+	padding-bottom: 10px;
+	&_content{
+		flex-direction: column-reverse;
+	}
+	&_copiright{
+		font-size: 20px;
+		line-height: 24px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	&_social{
+		&-link{
+			font-size: 40px;
+		}
+	}
+}

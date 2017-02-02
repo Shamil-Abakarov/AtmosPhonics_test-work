@@ -1,0 +1,26 @@
+.default_container{
+	width: 800px;
+}
+
+.slideshow{
+	&_text{
+		font-size: 30px;
+	}
+}
+
+.app{
+	overflow: hidden;
+	&_img{
+		top: 50px;
+		right: -30px;
+	}
+}
+
+.download{
+	&_title{
+		font-size: 25px;
+	}
+	&_btn{
+		padding: 15px 20px;
+	}
+}

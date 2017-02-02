@@ -1,0 +1,54 @@
+.default_container{
+	width: 100%;
+	padding: 0 20px;
+}
+
+.header{
+	padding-top: 20px;
+	&_logo-container{
+		padding-top: 10px;
+	}
+	&_btn{
+		margin-bottom: 10px;
+		margin-right: 10px;
+	}
+	.icon_menu{
+		display: block;
+		float: right;
+		font-size: 40px;
+	}
+}
+
+.nav{
+	&_list{
+		width: 100%;
+		border-top: 1px solid #000;
+		padding-top: 40px;
+		display: none;
+	}
+	&_item{
+		width: 100%;
+	}
+	&_link{
+		&:after{
+			display: none;
+		}
+	}
+}
+
+.app{
+	padding: 50px 0 20px;
+	&_title{
+		margin-bottom: 10px;
+	}
+	&_text{
+		margin-bottom: 20px;
+		br{
+			display: none;
+		}
+	}
+	&_img{
+		position: static;
+		width: 100%;
+	}
+}

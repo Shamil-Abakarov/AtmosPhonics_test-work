@@ -1,0 +1,48 @@
+.footer{
+	padding: 60px 00;
+
+	&_content{
+		display: flex;
+		flex: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&_social{
+		&-list{
+			list-style: none;
+		}
+		&-item{
+			display: inline-block;
+			margin-right: 15px;
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+		&-link{
+			font-size: 22px;
+			color: #6a6a6a;
+			transition: 0.3s;
+			&.instagram:hover{
+				color: #fcaf45;
+			}
+			&.dribbble:hover{
+				color: #ea4c89;
+			}
+			&.twitter:hover{
+				color: #55acee;
+			}
+		}
+	}
+
+	&_copiright{
+		color: #6a6a6a;
+		font-family: $open_sans;
+		font-size: 16px;
+		font-weight: 300;
+		line-height: 20px;
+		span{
+			font-weight: 600;
+		}
+	}
+}
